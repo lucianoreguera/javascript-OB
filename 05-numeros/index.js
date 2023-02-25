@@ -3,7 +3,7 @@ const alturaMts = 1.86
 const pesoKg = 104.5
 const alturaMtsRedondeadoArriba = Math.round(alturaMts)
 const pesoKgRedondeadoAbajo = Math.floor(pesoKg)
-const maximoValorJS = Number.MAX_VALUE + 1
+const maximoValorJS = Number.MAX_VALUE + 1 === Number.MAX_VALUE
 
 console.log(alturaCm)
 console.log(alturaMts)
